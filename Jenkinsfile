@@ -9,7 +9,7 @@ pipeline {
             }
         }
 
-        stage('GIT Checkout')
+        stage('UNIT TESTING')
         {
             steps{
               sh 'mvn test'
