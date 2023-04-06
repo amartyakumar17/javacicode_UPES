@@ -5,7 +5,7 @@ pipeline {
         stage('GIT Checkout')
         {
             steps{
-              git branch: 'main', url: 'https://github.com/PariharAditya/javacicode_UPES.git'
+              https://github.com/amartyakumar17/javacicode_UPES.git
             }
         }
 
